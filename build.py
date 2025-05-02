@@ -1,6 +1,6 @@
 import os, sys, shutil, urllib.request
 
-folders = ["src", "bin", "docs", "resrc", "resrc/audio", "resrc/image"]
+folders = ["src", "src/ext", "bin", "docs", "resrc", "resrc/audio", "resrc/image", "resrc/font"]
 links = {
     "win32":"https://github.com/love2d/love/releases/download/11.5/love-11.5-win64.zip",
     "linux":"https://github.com/love2d/love/releases/download/11.5/love-11.5-x86_64.AppImage",
